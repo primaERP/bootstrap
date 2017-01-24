@@ -89,3 +89,191 @@
   .loop-grid-columns(@grid-columns, @class, push);
   .loop-grid-columns(@grid-columns, @class, offset);
 }
+
+// primaERP .forced-* class ancestor combinations added ------- START
+
+.forced-suppress-bp-higher(@bpoint) {
+  .suppres-loop(@index) when (@index =< @grid-columns) {
+  
+    // col-*-* -> width
+    .forced-@{bpoint} .col-sm-@{index} when (@bpoint = xs)
+      { width: auto; }
+    .forced-@{bpoint} .col-md-@{index} when (@bpoint = xs), (@bpoint = sm)
+      { width: auto; }
+    .forced-@{bpoint} .col-lg-@{index} when (@bpoint = xs), (@bpoint = sm), (@bpoint = md)
+      { width: auto; }
+      
+    // col-*-OFFSET-* -> margin-left  
+    .forced-@{bpoint} .col-sm-offset-@{index} when (@bpoint = xs)
+      { margin-left: auto; }
+    .forced-@{bpoint} .col-md-offset-@{index} when (@bpoint = xs), (@bpoint = sm)
+      { margin-left: auto; }
+    .forced-@{bpoint} .col-lg-offset-@{index} when (@bpoint = xs), (@bpoint = sm), (@bpoint = md)  
+      { margin-left: auto; }
+
+    // col-*-PUSH-* -> left
+    .forced-@{bpoint} .col-sm-push-@{index} when (@bpoint = xs)
+      { left: auto; }
+    .forced-@{bpoint} .col-md-push-@{index} when (@bpoint = xs), (@bpoint = sm)
+      { left: auto; }
+    .forced-@{bpoint} .col-lg-push-@{index} when (@bpoint = xs), (@bpoint = sm), (@bpoint = md)
+      { left: auto; }
+    // col-*-PUSH-* - cascade 2nd level
+    .forced-@{bpoint} .forced-xs .col-@{bpoint}-push-@{index} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg)
+      { left: auto; }
+    .forced-@{bpoint} .forced-sm .col-@{bpoint}-push-@{index} when (@bpoint = md), (@bpoint = lg)
+      { left: auto; }
+    .forced-@{bpoint} .forced-lg .col-@{bpoint}-push-@{index} when (@bpoint = lg)
+      { left: auto; }
+
+    // col-*-PULL-* -> right
+    .forced-@{bpoint} .col-sm-pull-@{index} when (@bpoint = xs)
+      { right: auto; }
+    .forced-@{bpoint} .col-md-pull-@{index} when (@bpoint = xs), (@bpoint = sm)
+      { right: auto; }
+    .forced-@{bpoint} .col-lg-pull-@{index} when (@bpoint = xs), (@bpoint = sm), (@bpoint = md)
+      { right: auto; }
+    // col-*-PULL-* - cascade 2nd level
+    .forced-@{bpoint} .forced-xs .col-@{bpoint}-pull-@{index} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg)
+      { right: auto; }
+    .forced-@{bpoint} .forced-sm .col-@{bpoint}-pull-@{index} when (@bpoint = md), (@bpoint = lg)
+      { right: auto; }
+    .forced-@{bpoint} .forced-lg .col-@{bpoint}-pull-@{index} when (@bpoint = lg)
+      { right: auto; }
+
+    // next loop iteration
+    .suppres-loop((@index + 1))
+  } 
+  .suppres-loop(0); // start the loop
+
+  .width-loop(@ix) when (@ix =< @grid-columns) {
+    // col-*-* -> WIDTH
+    .forced-@{bpoint} .col-@{bpoint}-@{ix} {
+      width: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-xs .col-xs-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
+      width: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-sm .col-sm-@{ix} when (@bpoint = md), (@bpoint = lg) {
+      width: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-md .col-md-@{ix} when (@bpoint = lg) {
+      width: percentage((@ix / @grid-columns));
+    }
+   // next loop iteration
+    .width-loop((@ix + 1))
+  }
+  .width-loop(1); // start the loop
+	
+  // col-*-OFFSET-* -> margin-left  
+  .offset-xs-loop(@ix) when (@ix >= 0) {
+    .forced-@{bpoint} .col-xs-offset-@{ix} {
+      margin-left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-xs .col-xs-offset-@{ix} {
+      margin-left: percentage((@ix / @grid-columns));
+    }
+    // next loop iteration
+    .offset-xs-loop((@ix - 1))
+  }
+  .offset-xs-loop(@grid-columns); // start the loop
+
+  .offset-sm-loop(@ix) when (@ix >= 0) {
+    .forced-@{bpoint} .col-sm-offset-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
+      margin-left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-sm .col-sm-offset-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
+      margin-left: percentage((@ix / @grid-columns));
+    }
+    // next loop iteration
+    .offset-sm-loop((@ix - 1))
+  }
+  .offset-sm-loop(@grid-columns); // start the loop
+
+  .offset-md-loop(@ix) when (@ix >= 0) {
+    .forced-@{bpoint} .col-md-offset-@{ix} when (@bpoint = md), (@bpoint = lg) {
+      margin-left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-md .col-md-offset-@{ix} when (@bpoint = md), (@bpoint = lg) {
+      margin-left: percentage((@ix / @grid-columns));
+    }
+    // next loop iteration
+    .offset-md-loop((@ix - 1))
+  }
+  .offset-md-loop(@grid-columns); // start the loop
+
+  .offset-lg-loop(@ix) when (@ix >= 0) {
+    .forced-@{bpoint} .col-lg-offset-@{ix} when (@bpoint = lg) {
+      margin-left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-lg .col-lg-offset-@{ix} when (@bpoint = lg) {
+      margin-left: percentage((@ix / @grid-columns));
+    }
+    // next loop iteration
+    .offset-lg-loop((@ix - 1))
+  }
+  .offset-lg-loop(@grid-columns); // start the loop
+
+    
+  .push-pull-loop(@ix) when (@ix >= 0) {
+    // col-*-PUSH-* -> left
+    .forced-@{bpoint} .col-xs-push-@{ix} {
+      left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .col-sm-push-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
+      left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .col-md-push-@{ix} when (@bpoint = md), (@bpoint = lg) {
+      left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .col-lg-push-@{ix} when (@bpoint = lg) {
+      left: percentage((@ix / @grid-columns));
+    }
+    // PUSH - cascade - 2nd level
+    .forced-@{bpoint} .forced-xs .col-xs-push-@{ix} {
+      left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-sm .col-sm-push-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
+      left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-md .col-md-push-@{ix} when (@bpoint = md), (@bpoint = lg) {
+      left: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-lg .col-lg-push-@{ix} when (@bpoint = lg) {
+      left: percentage((@ix / @grid-columns));
+    }
+
+    // col-*-PULL-* -> right
+    .forced-@{bpoint} .col-xs-pull-@{ix} {
+      right: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .col-sm-pull-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
+      right: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .col-md-pull-@{ix} when (@bpoint = md), (@bpoint = lg) {
+      right: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .col-lg-pull-@{ix} when (@bpoint = lg) {
+      right: percentage((@ix / @grid-columns));
+    }
+    // PULL - cascade - 2nd level
+    .forced-@{bpoint} .forced-xs .col-xs-pull-@{ix} {
+      right: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-sm .col-sm-pull-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
+      right: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-md .col-md-pull-@{ix} when (@bpoint = md), (@bpoint = lg) {
+      right: percentage((@ix / @grid-columns));
+    }
+    .forced-@{bpoint} .forced-lg .col-lg-pull-@{ix} when (@bpoint = lg) {
+      right: percentage((@ix / @grid-columns));
+    }
+
+    // next loop iteration
+    .push-pull-loop((@ix - 1))
+  }
+  .push-pull-loop(@grid-columns); // start the loop
+}
+
+// primaERP .forced-* class ancestor combinations added ------- END

@@ -1,0 +1,99 @@
+.mainframe {
+  height: 200px
+  border: 2px solid black;
+  background-color: #E0E0FF; 
+}
+
+.row20 {
+  height: 20px;
+}
+
+.row50 {
+  height: 50px;
+}
+
+.row120 {
+  height: 120px;
+}
+
+.row150 {
+  height: 150px;
+}
+
+.element1 {
+  position: relative;
+  height: 99%;
+  border: 1px solid blue;
+  background-color: #FFFFE0; 
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.element2 {
+  height: 99%;
+  border: 1px solid red;
+  background-color: #E0FFFF; 
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.element3 {
+  height: 98%;
+  border: 1px solid blue;
+  background-color: #FFE0FF; 
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.element4 {
+  height: 98%;
+  border: 1px solid green;
+  background-color: #80FF80; 
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.noforced {
+  background-color: white; 
+}
+
+.fullsize {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #FF8080;
+  background-color: #E0FFE0; 
+}
+
+.halfsize {
+  position: absolute;
+  left: 0px;
+  top: 250px;
+  width: 50%;
+  height: 200px;
+  border: 1px solid red;
+  background-color: #E0FFE0; 
+}
+
+TD {
+  border: 3px dotted blue;
+}
+
+.forced-sm .forced-xs .col-xs-offset-0,
+.forced-md .forced-xs .col-xs-offset-0,
+.forced-lg .forced-xs .col-xs-offset-0 {
+   margin-left: percentage((@ix / @grid-columns));
+}
+.forced-md .forced-sm .col-sm-offset-3,
+.forced-lg .forced-sm .col-sm-offset-3 {
+   margin-left: percentage((@ix / @grid-columns));
+}
+.forced-lg .forced-md .col-md-offset-6 {
+   margin-left: percentage((@ix / @grid-columns));
+}

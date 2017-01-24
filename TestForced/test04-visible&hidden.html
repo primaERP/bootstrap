@@ -1,0 +1,391 @@
+<HTML>
+<HEAD>
+<TITLE>test4 - visble & hidden</TITLE>
+<link rel="stylesheet" href="../dist/css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="test.css" type="text/css">
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<table border=2 width=100%>
+<tr height=80px><td colspan=2>
+
+  <div class='container-fluid mainframe'>
+    <div class='row'>
+      <div class='visible-xs col-xs-5'>Actual viewport: <b>xs</b> </div>
+      <div class='visible-sm col-sm-4'>Actual viewport: <b>sm</b> </div>
+      <div class='visible-md col-md-3'>Actual viewport: <b>md</b> </div>
+      <div class='visible-lg col-lg-2'>Actual viewport: <b>lg</b> </div>
+      <div class='col-xs-6'><b>C2: visible-sm</b></div>
+    </div>  
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        Component 1 - FULL SCREENed
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm'>
+        Component 2 - FULL SCREENed
+      </div>
+    </div>  
+  </div>
+</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-xs'>
+    <div class='container-fluid mainframe'>
+      <div class='row row50'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - half sized- forced-xs
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm'>
+          C2 - half sized- forced-xs
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-sm'>
+    <div class='container-fluid mainframe'>
+      <div class='row row50'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - half sized- forced-sm
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm'>
+          C2 - half sized- forced-sm
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-md'>
+    <div class='container-fluid mainframe'>
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - half sized- forced-md
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm'>
+        C2 - half sized- forced-md
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-lg'>
+    <div class='container-fluid mainframe'>
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - half sized- forced-lg
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm'>
+        C2 - half sized- forced-lg
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+</table>
+
+
+
+<br><br>
+<table border=2 width=100%>
+<tr height=80px><td colspan=2>
+
+  <div class='container-fluid mainframe'>
+    <div class='row'>
+      <div class='visible-xs col-xs-5'>Actual viewport: <b>xs</b> </div>
+      <div class='visible-sm col-sm-4'>Actual viewport: <b>sm</b> </div>
+      <div class='visible-md col-md-3'>Actual viewport: <b>md</b> </div>
+      <div class='visible-lg col-lg-2'>Actual viewport: <b>lg</b> </div>
+      <div class='col-xs-6'><b>C2: visible-sm visible-md</b></div>
+    </div>  
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        Component 1 - FULL SCREENed
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm visible-md'>
+        Component 2 - FULL SCREENed
+      </div>
+    </div>  
+  </div>
+</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-xs'>
+    <div class='container-fluid mainframe'>
+      <div class='row row50'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - half sized- forced-xs
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm visible-md'>
+          C2 - half sized- forced-xs
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-sm'>
+    <div class='container-fluid mainframe'>
+      <div class='row row50'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - half sized- forced-sm
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm visible-md'>
+          C2 - half sized- forced-sm
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-md'>
+    <div class='container-fluid mainframe'>
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - half sized- forced-md
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm visible-md'>
+        C2 - half sized- forced-md
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-lg'>
+    <div class='container-fluid mainframe'>
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - half sized- forced-lg
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 visible-sm visible-md'>
+        C2 - half sized- forced-lg
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+</table>
+
+
+<br><br>
+
+
+<table border=2 width=100%>
+<tr height=80px><td colspan=2>
+
+  <div class='container-fluid mainframe'>
+    <div class='row'>
+      <div class='visible-xs col-xs-5'>Actual viewport: <b>xs</b> </div>
+      <div class='visible-sm col-sm-4'>Actual viewport: <b>sm</b> </div>
+      <div class='visible-md col-md-3'>Actual viewport: <b>md</b> </div>
+      <div class='visible-lg col-lg-2'>Actual viewport: <b>lg</b> </div>
+      <div class='col-xs-6'><b>C2: hidden-sm</b></div>
+    </div>  
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        Component 1 - FULL SCREENed
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm'>
+        Component 2 - FULL SCREENed
+      </div>
+    </div>  
+  </div>
+</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-xs'>
+    <div class='container-fluid mainframe'>
+      <div class='row row50'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - half sized- forced-xs
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm'>
+          C2 - half sized- forced-xs
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-sm'>
+    <div class='container-fluid mainframe'>
+      <div class='row row50'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - half sized- forced-sm
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm'>
+          C2 - half sized- forced-sm
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-md'>
+    <div class='container-fluid mainframe'>
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - half sized- forced-md
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm'>
+        C2 - half sized- forced-md
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-lg'>
+    <div class='container-fluid mainframe'>
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - half sized- forced-lg
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm'>
+        C2 - half sized- forced-lg
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+</table>
+
+
+<br><br>
+
+
+<table border=2 width=100%>
+<tr height=80px><td colspan=2>
+
+  <div class='container-fluid mainframe'>
+    <div class='row'>
+      <div class='visible-xs col-xs-5'>Actual viewport: <b>xs</b> </div>
+      <div class='visible-sm col-sm-4'>Actual viewport: <b>sm</b> </div>
+      <div class='visible-md col-md-3'>Actual viewport: <b>md</b> </div>
+      <div class='visible-lg col-lg-2'>Actual viewport: <b>lg</b> </div>
+      <div class='col-xs-6'><b>C2: hidden-sm hidden-md</b></div>
+    </div>  
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        Component 1 - FULL SCREENed
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm hidden-md'>
+        Component 2 - FULL SCREENed
+      </div>
+    </div>  
+  </div>
+</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-xs'>
+    <div class='container-fluid mainframe'>
+      <div class='row row50'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - half sized- forced-xs
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm hidden-md'>
+          C2 - half sized- forced-xs
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-sm'>
+    <div class='container-fluid mainframe'>
+      <div class='row row50'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - half sized- forced-sm
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm hidden-md'>
+          C2 - half sized- forced-sm
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-md'>
+    <div class='container-fluid mainframe'>
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - half sized- forced-md
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm hidden-md'>
+        C2 - half sized- forced-md
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=50px><td width='50%'>
+  <div class='forced-lg'>
+    <div class='container-fluid mainframe'>
+    <div class='row row50'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - half sized- forced-lg
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2 hidden-sm hidden-md'>
+        C2 - half sized- forced-lg
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+</table>
+
+
+</BODY>
+</HTML>

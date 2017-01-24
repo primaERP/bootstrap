@@ -152,6 +152,143 @@
   }
 }
 
+// primaERP .forced-* class ancestor combinations added ------- START
+
+.set-forced-visible-to-invisible(xs);
+.set-forced-visible-to-invisible(sm);
+.set-forced-visible-to-invisible(md);
+.set-forced-visible-to-invisible(lg);
+.set-forced-visible-to-visible(xs);
+.set-forced-visible-to-visible(sm);
+.set-forced-visible-to-visible(md);
+.set-forced-visible-to-visible(lg);
+.set-forced-hidden-to-visible(xs);
+.set-forced-hidden-to-visible(sm);
+.set-forced-hidden-to-visible(md);
+.set-forced-hidden-to-visible(lg);
+.set-forced-hidden-to-invisible(xs);
+.set-forced-hidden-to-invisible(sm);
+.set-forced-hidden-to-invisible(md);
+.set-forced-hidden-to-invisible(lg);
+
+.set-forced-visible-to-invisible(@bpoint) {
+  // VISIBLE-*
+	.forced-@{bpoint} .visible-xs when not(@bpoint=xs) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .visible-sm when not(@bpoint=sm) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .visible-md when not(@bpoint=md) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .visible-lg when not(@bpoint=lg) {
+    .responsive-invisibility();
+  }
+  // VISIBLE-* cascade 2nd level
+	.forced-@{bpoint} .forced-xs .visible-@{bpoint} when not(@bpoint=xs) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .forced-sm .visible-@{bpoint} when not(@bpoint=sm) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .forced-md .visible-@{bpoint} when not(@bpoint=md) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .forced-lg .visible-@{bpoint} when not(@bpoint=lg) {
+    .responsive-invisibility();
+  }
+}
+
+.set-forced-visible-to-visible(@bpoint) {
+  // VISIBLE-*
+  .forced-@{bpoint} .visible-xs when (@bpoint=xs) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .visible-sm when (@bpoint=sm) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .visible-md when (@bpoint=md) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .visible-lg when (@bpoint=lg) {
+    .responsive-visibility();
+  }
+  // VISIBLE-* cascade 2nd level
+  .forced-@{bpoint} .forced-xs .visible-xs when not(@bpoint=xs) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .forced-sm .visible-sm when not(@bpoint=sm) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .forced-md .visible-md when not(@bpoint=md) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .forced-lg .visible-lg when not(@bpoint=lg) {
+    .responsive-visibility();
+  }
+}
+
+.set-forced-hidden-to-visible(@bpoint) {
+  // HIDDEN-*
+  .forced-@{bpoint} .hidden-xs when not(@bpoint=xs) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .hidden-sm when not(@bpoint=sm) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .hidden-md when not(@bpoint=md) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .hidden-lg when not(@bpoint=lg) {
+    .responsive-visibility();
+  }
+  // HIDDEN-* cascade 2nd level
+  .forced-@{bpoint} .forced-xs .hidden-@{bpoint} when not(@bpoint=xs) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .forced-sm .hidden-@{bpoint} when not(@bpoint=sm) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .forced-md .hidden-@{bpoint} when not(@bpoint=md) {
+    .responsive-visibility();
+  }
+  .forced-@{bpoint} .forced-lg .hidden-@{bpoint} when not(@bpoint=lg) {
+    .responsive-visibility();
+  }
+}	
+
+.set-forced-hidden-to-invisible(@bpoint) {	
+  // HIDDEN-*
+	.forced-@{bpoint} .hidden-xs when (@bpoint=xs) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .hidden-sm when (@bpoint=sm) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .hidden-md when (@bpoint=md) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .hidden-lg when (@bpoint=lg) {
+    .responsive-invisibility();
+  }
+  // HIDDEN-* cascade 2nd level
+  .forced-@{bpoint} .forced-xs .hidden-xs when not(@bpoint=xs) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .forced-sm .hidden-sm when not(@bpoint=sm) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .forced-md .hidden-md when not(@bpoint=md) {
+    .responsive-invisibility();
+  }
+  .forced-@{bpoint} .forced-lg .hidden-lg when not(@bpoint=lg) {
+    .responsive-invisibility();
+  }
+}
+
+// primaERP .forced-* class ancestor combinations added ------- END
+
 
 // Print utilities
 //

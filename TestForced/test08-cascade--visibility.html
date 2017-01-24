@@ -1,0 +1,277 @@
+<HTML>
+<HEAD>
+<TITLE>test8 - cascade visibility</TITLE>
+<link rel="stylesheet" href="../dist/css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="test.css" type="text/css">
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<table border=2 width=100%>
+<tr height=80px><td colspan=2>
+
+  <div class='container-fluid mainframe'>
+    <div class='row'>
+      <div class='visible-xs col-xs-5'>Actual viewport: <b>xs</b> </div>
+      <div class='visible-sm col-sm-4'>Actual viewport: <b>sm</b> </div>
+      <div class='visible-md col-md-3'>Actual viewport: <b>md</b> </div>
+      <div class='visible-lg col-lg-2'>Actual viewport: <b>lg</b> </div>
+      <div class='col-xs-6'><b>cascade visible & hidden<br>C3: hidden-sm, C4: visible-sm visible-md</b></div>
+    </div>  
+    <div class='row row120'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        Component 1 - FULL SCREENed
+
+          <div class='container-fluid mainframe'>
+            <div class='row row20'>
+              <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3 noforced'>
+                C3 - <b>no forced at this level</b>
+              </div>
+              <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                C4 - <b>no forced at this level</b>
+              </div>
+            </div>
+            <div class='forced-xs'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-xs-9</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-xs-3</b>
+                </div>
+              </div>
+            </div>
+            <div class='forced-sm'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-sm-6</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-sm-6</b>
+                </div>
+              </div>
+            </div>
+            <div class='forced-md'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-md-4)</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-md-8</b>
+                </div>
+              </div>
+            </div>
+            <div class='forced-lg'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-lg-3</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-lg-10</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2'>
+        Component 2 - FULL SCREENed
+      </div>
+    </div>  
+  </div>
+
+</td>
+</tr>
+
+<tr height=100px><td width='75%'>
+  
+  <div class='forced-xs'>
+    <div class='container-fluid mainframe'>
+      <div class='row row120'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - 80% sized- forced-xs (9)
+
+          <div class='container-fluid mainframe'>
+            <div class='forced-xs'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-xs-9</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-xs-3</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2'>
+          C2 - 80% - forced-xs (3)
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=100px><td width='75%'>
+  
+  <div class='forced-sm'>
+    <div class='container-fluid mainframe'>
+      <div class='row row120'>
+        <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+          C1 - 80% sized- forced-sm (6))
+
+          <div class='container-fluid mainframe'>
+            <div class='forced-xs'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-xs-9</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-xs-3</b>
+                </div>
+              </div>
+            </div>
+            <div class='forced-sm'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-sm-6</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-sm-6</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2'>
+          C2 - 80% sized- forced-sm (6)
+        </div>
+      </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+
+<tr height=100px><td width='75%'>
+  
+  <div class='forced-md'>
+    <div class='container-fluid mainframe'>
+    <div class='row row120'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - 80% sized- forced-md (4)
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2'>
+        C2 - 80% sized- forced-md (8))
+
+          <div class='container-fluid mainframe'>
+            <div class='forced-xs'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-xs-9</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-xs-3</b>
+                </div>
+              </div>
+            </div>
+            <div class='forced-sm'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-sm-6</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-sm-6</b>
+                </div>
+              </div>
+            </div>
+            <div class='forced-md'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-md-4</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-md-8</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+
+<tr height=100px><td width='75%'>
+  
+  <div class='forced-lg'>
+    <div class='container-fluid mainframe'>
+    <div class='row row150'>
+      <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 element1'>
+        C1 - 80% sized- forced-lg (2)
+      </div>
+      <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 element2'>
+        C2 - 80% sized- forced-lg (10)
+
+          <div class='container-fluid mainframe'>
+            <div class='forced-xs'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-xs-9)</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-xs-3</b>
+                </div>
+              </div>
+            </div>
+            <div class='forced-sm'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-sm-6</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-sm-6</b>
+                </div>
+              </div>
+            </div>
+            <div class='forced-md'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-md-4</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-md-8</b>
+                </div>
+              </div>
+            </div>
+            <div class='forced-lg'>
+              <div class='row row20'>
+                <div class='col-xs-9 col-sm-6 col-md-4 col-lg-2 hidden-sm element3'>
+                  C3 - <b>forced-lg-2</b>
+                </div>
+                <div class='col-xs-3 col-sm-6 col-md-8 col-lg-10 visible-sm visible-md element4'>
+                  C4 - <b>forced-lg-10</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>  
+    </div>
+  <div>
+</td>
+<td width='50%'>&nbsp</td>
+</tr>
+</table>
+
+
+</BODY>
+</HTML>
