@@ -90,7 +90,8 @@
   .loop-grid-columns(@grid-columns, @class, offset);
 }
 
-// primaERP .forced-* class ancestor combinations added ------- START
+
+// primaERP .forced-* class ancestor combinations added
 
 .forced-suppress-bp-higher(@bpoint) {
   .suppres-loop(@index) when (@index =< @grid-columns) {
@@ -148,10 +149,20 @@
 
   .width-loop(@ix) when (@ix =< @grid-columns) {
     // col-*-* -> WIDTH
-    .forced-@{bpoint} .col-@{bpoint}-@{ix} {
+		.forced-@{bpoint} .col-xs-@{ix} {
       width: percentage((@ix / @grid-columns));
     }
-    .forced-@{bpoint} .forced-xs .col-xs-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
+		.forced-@{bpoint} .col-sm-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
+      width: percentage((@ix / @grid-columns));
+    }
+		.forced-@{bpoint} .col-md-@{ix} when (@bpoint = md), (@bpoint = lg) {
+      width: percentage((@ix / @grid-columns));
+    }
+		.forced-@{bpoint} .col-lg-@{ix} when (@bpoint = lg) {
+      width: percentage((@ix / @grid-columns));
+    }
+    // col-*-* -> WIDTH - cascade - 2nd level
+		.forced-@{bpoint} .forced-xs .col-xs-@{ix} when (@bpoint = sm), (@bpoint = md), (@bpoint = lg) {
       width: percentage((@ix / @grid-columns));
     }
     .forced-@{bpoint} .forced-sm .col-sm-@{ix} when (@bpoint = md), (@bpoint = lg) {
