@@ -2248,15 +2248,6 @@ pre code {
     margin-left: 0;
   }
 }
-.forced-xs .col-sm-0 {
-  width: auto;
-}
-.forced-xs .col-md-0 {
-  width: auto;
-}
-.forced-xs .col-lg-0 {
-  width: auto;
-}
 .forced-xs .col-sm-offset-0 {
   margin-left: auto;
 }
@@ -2283,15 +2274,6 @@ pre code {
 }
 .forced-xs .col-lg-pull-0 {
   right: auto;
-}
-.forced-xs .col-sm-1 {
-  width: auto;
-}
-.forced-xs .col-md-1 {
-  width: auto;
-}
-.forced-xs .col-lg-1 {
-  width: auto;
 }
 .forced-xs .col-sm-offset-1 {
   margin-left: auto;
@@ -2320,15 +2302,6 @@ pre code {
 .forced-xs .col-lg-pull-1 {
   right: auto;
 }
-.forced-xs .col-sm-2 {
-  width: auto;
-}
-.forced-xs .col-md-2 {
-  width: auto;
-}
-.forced-xs .col-lg-2 {
-  width: auto;
-}
 .forced-xs .col-sm-offset-2 {
   margin-left: auto;
 }
@@ -2355,15 +2328,6 @@ pre code {
 }
 .forced-xs .col-lg-pull-2 {
   right: auto;
-}
-.forced-xs .col-sm-3 {
-  width: auto;
-}
-.forced-xs .col-md-3 {
-  width: auto;
-}
-.forced-xs .col-lg-3 {
-  width: auto;
 }
 .forced-xs .col-sm-offset-3 {
   margin-left: auto;
@@ -2392,15 +2356,6 @@ pre code {
 .forced-xs .col-lg-pull-3 {
   right: auto;
 }
-.forced-xs .col-sm-4 {
-  width: auto;
-}
-.forced-xs .col-md-4 {
-  width: auto;
-}
-.forced-xs .col-lg-4 {
-  width: auto;
-}
 .forced-xs .col-sm-offset-4 {
   margin-left: auto;
 }
@@ -2427,15 +2382,6 @@ pre code {
 }
 .forced-xs .col-lg-pull-4 {
   right: auto;
-}
-.forced-xs .col-sm-5 {
-  width: auto;
-}
-.forced-xs .col-md-5 {
-  width: auto;
-}
-.forced-xs .col-lg-5 {
-  width: auto;
 }
 .forced-xs .col-sm-offset-5 {
   margin-left: auto;
@@ -2464,15 +2410,6 @@ pre code {
 .forced-xs .col-lg-pull-5 {
   right: auto;
 }
-.forced-xs .col-sm-6 {
-  width: auto;
-}
-.forced-xs .col-md-6 {
-  width: auto;
-}
-.forced-xs .col-lg-6 {
-  width: auto;
-}
 .forced-xs .col-sm-offset-6 {
   margin-left: auto;
 }
@@ -2499,15 +2436,6 @@ pre code {
 }
 .forced-xs .col-lg-pull-6 {
   right: auto;
-}
-.forced-xs .col-sm-7 {
-  width: auto;
-}
-.forced-xs .col-md-7 {
-  width: auto;
-}
-.forced-xs .col-lg-7 {
-  width: auto;
 }
 .forced-xs .col-sm-offset-7 {
   margin-left: auto;
@@ -2536,15 +2464,6 @@ pre code {
 .forced-xs .col-lg-pull-7 {
   right: auto;
 }
-.forced-xs .col-sm-8 {
-  width: auto;
-}
-.forced-xs .col-md-8 {
-  width: auto;
-}
-.forced-xs .col-lg-8 {
-  width: auto;
-}
 .forced-xs .col-sm-offset-8 {
   margin-left: auto;
 }
@@ -2571,15 +2490,6 @@ pre code {
 }
 .forced-xs .col-lg-pull-8 {
   right: auto;
-}
-.forced-xs .col-sm-9 {
-  width: auto;
-}
-.forced-xs .col-md-9 {
-  width: auto;
-}
-.forced-xs .col-lg-9 {
-  width: auto;
 }
 .forced-xs .col-sm-offset-9 {
   margin-left: auto;
@@ -2608,15 +2518,6 @@ pre code {
 .forced-xs .col-lg-pull-9 {
   right: auto;
 }
-.forced-xs .col-sm-10 {
-  width: auto;
-}
-.forced-xs .col-md-10 {
-  width: auto;
-}
-.forced-xs .col-lg-10 {
-  width: auto;
-}
 .forced-xs .col-sm-offset-10 {
   margin-left: auto;
 }
@@ -2643,15 +2544,6 @@ pre code {
 }
 .forced-xs .col-lg-pull-10 {
   right: auto;
-}
-.forced-xs .col-sm-11 {
-  width: auto;
-}
-.forced-xs .col-md-11 {
-  width: auto;
-}
-.forced-xs .col-lg-11 {
-  width: auto;
 }
 .forced-xs .col-sm-offset-11 {
   margin-left: auto;
@@ -2680,15 +2572,6 @@ pre code {
 .forced-xs .col-lg-pull-11 {
   right: auto;
 }
-.forced-xs .col-sm-12 {
-  width: auto;
-}
-.forced-xs .col-md-12 {
-  width: auto;
-}
-.forced-xs .col-lg-12 {
-  width: auto;
-}
 .forced-xs .col-sm-offset-12 {
   margin-left: auto;
 }
@@ -2716,40 +2599,1651 @@ pre code {
 .forced-xs .col-lg-pull-12 {
   right: auto;
 }
+.forced-xs .col-sm-0 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-0 {
+  width: auto;
+}
+.forced-sm .col-md-offset-0 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-0 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-0 {
+  left: auto;
+}
+.forced-sm .col-lg-push-0 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-0 {
+  left: auto;
+}
+.forced-sm .col-md-pull-0 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-0 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-0 {
+  right: auto;
+}
+.forced-xs .col-sm-1 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-1 {
+  width: auto;
+}
+.forced-sm .col-md-offset-1 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-1 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-1 {
+  left: auto;
+}
+.forced-sm .col-lg-push-1 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-1 {
+  left: auto;
+}
+.forced-sm .col-md-pull-1 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-1 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-1 {
+  right: auto;
+}
+.forced-xs .col-sm-2 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-2 {
+  width: auto;
+}
+.forced-sm .col-md-offset-2 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-2 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-2 {
+  left: auto;
+}
+.forced-sm .col-lg-push-2 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-2 {
+  left: auto;
+}
+.forced-sm .col-md-pull-2 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-2 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-2 {
+  right: auto;
+}
+.forced-xs .col-sm-3 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-3 {
+  width: auto;
+}
+.forced-sm .col-md-offset-3 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-3 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-3 {
+  left: auto;
+}
+.forced-sm .col-lg-push-3 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-3 {
+  left: auto;
+}
+.forced-sm .col-md-pull-3 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-3 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-3 {
+  right: auto;
+}
+.forced-xs .col-sm-4 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-4 {
+  width: auto;
+}
+.forced-sm .col-md-offset-4 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-4 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-4 {
+  left: auto;
+}
+.forced-sm .col-lg-push-4 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-4 {
+  left: auto;
+}
+.forced-sm .col-md-pull-4 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-4 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-4 {
+  right: auto;
+}
+.forced-xs .col-sm-5 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-5 {
+  width: auto;
+}
+.forced-sm .col-md-offset-5 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-5 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-5 {
+  left: auto;
+}
+.forced-sm .col-lg-push-5 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-5 {
+  left: auto;
+}
+.forced-sm .col-md-pull-5 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-5 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-5 {
+  right: auto;
+}
+.forced-xs .col-sm-6 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-6 {
+  width: auto;
+}
+.forced-sm .col-md-offset-6 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-6 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-6 {
+  left: auto;
+}
+.forced-sm .col-lg-push-6 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-6 {
+  left: auto;
+}
+.forced-sm .col-md-pull-6 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-6 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-6 {
+  right: auto;
+}
+.forced-xs .col-sm-7 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-7 {
+  width: auto;
+}
+.forced-sm .col-md-offset-7 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-7 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-7 {
+  left: auto;
+}
+.forced-sm .col-lg-push-7 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-7 {
+  left: auto;
+}
+.forced-sm .col-md-pull-7 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-7 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-7 {
+  right: auto;
+}
+.forced-xs .col-sm-8 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-8 {
+  width: auto;
+}
+.forced-sm .col-md-offset-8 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-8 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-8 {
+  left: auto;
+}
+.forced-sm .col-lg-push-8 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-8 {
+  left: auto;
+}
+.forced-sm .col-md-pull-8 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-8 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-8 {
+  right: auto;
+}
+.forced-xs .col-sm-9 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-9 {
+  width: auto;
+}
+.forced-sm .col-md-offset-9 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-9 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-9 {
+  left: auto;
+}
+.forced-sm .col-lg-push-9 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-9 {
+  left: auto;
+}
+.forced-sm .col-md-pull-9 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-9 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-9 {
+  right: auto;
+}
+.forced-xs .col-sm-10 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-10 {
+  width: auto;
+}
+.forced-sm .col-md-offset-10 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-10 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-10 {
+  left: auto;
+}
+.forced-sm .col-lg-push-10 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-10 {
+  left: auto;
+}
+.forced-sm .col-md-pull-10 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-10 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-10 {
+  right: auto;
+}
+.forced-xs .col-sm-11 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-11 {
+  width: auto;
+}
+.forced-sm .col-md-offset-11 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-11 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-11 {
+  left: auto;
+}
+.forced-sm .col-lg-push-11 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-11 {
+  left: auto;
+}
+.forced-sm .col-md-pull-11 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-11 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-11 {
+  right: auto;
+}
+.forced-xs .col-sm-12 {
+  width: auto;
+}
+.forced-sm .forced-xs .col-sm-12 {
+  width: auto;
+}
+.forced-sm .col-md-offset-12 {
+  margin-left: auto;
+}
+.forced-sm .col-lg-offset-12 {
+  margin-left: auto;
+}
+.forced-sm .col-md-push-12 {
+  left: auto;
+}
+.forced-sm .col-lg-push-12 {
+  left: auto;
+}
+.forced-sm .forced-xs .col-sm-push-12 {
+  left: auto;
+}
+.forced-sm .col-md-pull-12 {
+  right: auto;
+}
+.forced-sm .col-lg-pull-12 {
+  right: auto;
+}
+.forced-sm .forced-xs .col-sm-pull-12 {
+  right: auto;
+}
+.forced-xs .col-md-0 {
+  width: auto;
+}
+.forced-sm .col-md-0 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-0 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-0 {
+  width: auto;
+}
+.forced-md .col-lg-offset-0 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-0 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-0 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-0 {
+  left: auto;
+}
+.forced-md .col-lg-pull-0 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-0 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-0 {
+  right: auto;
+}
+.forced-xs .col-md-1 {
+  width: auto;
+}
+.forced-sm .col-md-1 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-1 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-1 {
+  width: auto;
+}
+.forced-md .col-lg-offset-1 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-1 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-1 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-1 {
+  left: auto;
+}
+.forced-md .col-lg-pull-1 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-1 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-1 {
+  right: auto;
+}
+.forced-xs .col-md-2 {
+  width: auto;
+}
+.forced-sm .col-md-2 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-2 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-2 {
+  width: auto;
+}
+.forced-md .col-lg-offset-2 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-2 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-2 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-2 {
+  left: auto;
+}
+.forced-md .col-lg-pull-2 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-2 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-2 {
+  right: auto;
+}
+.forced-xs .col-md-3 {
+  width: auto;
+}
+.forced-sm .col-md-3 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-3 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-3 {
+  width: auto;
+}
+.forced-md .col-lg-offset-3 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-3 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-3 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-3 {
+  left: auto;
+}
+.forced-md .col-lg-pull-3 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-3 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-3 {
+  right: auto;
+}
+.forced-xs .col-md-4 {
+  width: auto;
+}
+.forced-sm .col-md-4 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-4 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-4 {
+  width: auto;
+}
+.forced-md .col-lg-offset-4 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-4 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-4 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-4 {
+  left: auto;
+}
+.forced-md .col-lg-pull-4 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-4 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-4 {
+  right: auto;
+}
+.forced-xs .col-md-5 {
+  width: auto;
+}
+.forced-sm .col-md-5 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-5 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-5 {
+  width: auto;
+}
+.forced-md .col-lg-offset-5 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-5 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-5 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-5 {
+  left: auto;
+}
+.forced-md .col-lg-pull-5 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-5 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-5 {
+  right: auto;
+}
+.forced-xs .col-md-6 {
+  width: auto;
+}
+.forced-sm .col-md-6 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-6 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-6 {
+  width: auto;
+}
+.forced-md .col-lg-offset-6 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-6 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-6 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-6 {
+  left: auto;
+}
+.forced-md .col-lg-pull-6 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-6 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-6 {
+  right: auto;
+}
+.forced-xs .col-md-7 {
+  width: auto;
+}
+.forced-sm .col-md-7 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-7 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-7 {
+  width: auto;
+}
+.forced-md .col-lg-offset-7 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-7 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-7 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-7 {
+  left: auto;
+}
+.forced-md .col-lg-pull-7 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-7 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-7 {
+  right: auto;
+}
+.forced-xs .col-md-8 {
+  width: auto;
+}
+.forced-sm .col-md-8 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-8 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-8 {
+  width: auto;
+}
+.forced-md .col-lg-offset-8 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-8 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-8 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-8 {
+  left: auto;
+}
+.forced-md .col-lg-pull-8 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-8 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-8 {
+  right: auto;
+}
+.forced-xs .col-md-9 {
+  width: auto;
+}
+.forced-sm .col-md-9 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-9 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-9 {
+  width: auto;
+}
+.forced-md .col-lg-offset-9 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-9 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-9 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-9 {
+  left: auto;
+}
+.forced-md .col-lg-pull-9 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-9 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-9 {
+  right: auto;
+}
+.forced-xs .col-md-10 {
+  width: auto;
+}
+.forced-sm .col-md-10 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-10 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-10 {
+  width: auto;
+}
+.forced-md .col-lg-offset-10 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-10 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-10 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-10 {
+  left: auto;
+}
+.forced-md .col-lg-pull-10 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-10 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-10 {
+  right: auto;
+}
+.forced-xs .col-md-11 {
+  width: auto;
+}
+.forced-sm .col-md-11 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-11 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-11 {
+  width: auto;
+}
+.forced-md .col-lg-offset-11 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-11 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-11 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-11 {
+  left: auto;
+}
+.forced-md .col-lg-pull-11 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-11 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-11 {
+  right: auto;
+}
+.forced-xs .col-md-12 {
+  width: auto;
+}
+.forced-sm .col-md-12 {
+  width: auto;
+}
+.forced-md .forced-xs .col-md-12 {
+  width: auto;
+}
+.forced-md .forced-sm .col-md-12 {
+  width: auto;
+}
+.forced-md .col-lg-offset-12 {
+  margin-left: auto;
+}
+.forced-md .col-lg-push-12 {
+  left: auto;
+}
+.forced-md .forced-xs .col-md-push-12 {
+  left: auto;
+}
+.forced-md .forced-sm .col-md-push-12 {
+  left: auto;
+}
+.forced-md .col-lg-pull-12 {
+  right: auto;
+}
+.forced-md .forced-xs .col-md-pull-12 {
+  right: auto;
+}
+.forced-md .forced-sm .col-md-pull-12 {
+  right: auto;
+}
+.forced-xs .col-lg-0 {
+  width: auto;
+}
+.forced-sm .col-lg-0 {
+  width: auto;
+}
+.forced-md .col-lg-0 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-0 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-0 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-0 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-0 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-0 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-0 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-0 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-0 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-0 {
+  right: auto;
+}
+.forced-xs .col-lg-1 {
+  width: auto;
+}
+.forced-sm .col-lg-1 {
+  width: auto;
+}
+.forced-md .col-lg-1 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-1 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-1 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-1 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-1 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-1 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-1 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-1 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-1 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-1 {
+  right: auto;
+}
+.forced-xs .col-lg-2 {
+  width: auto;
+}
+.forced-sm .col-lg-2 {
+  width: auto;
+}
+.forced-md .col-lg-2 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-2 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-2 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-2 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-2 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-2 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-2 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-2 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-2 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-2 {
+  right: auto;
+}
+.forced-xs .col-lg-3 {
+  width: auto;
+}
+.forced-sm .col-lg-3 {
+  width: auto;
+}
+.forced-md .col-lg-3 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-3 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-3 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-3 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-3 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-3 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-3 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-3 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-3 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-3 {
+  right: auto;
+}
+.forced-xs .col-lg-4 {
+  width: auto;
+}
+.forced-sm .col-lg-4 {
+  width: auto;
+}
+.forced-md .col-lg-4 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-4 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-4 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-4 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-4 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-4 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-4 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-4 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-4 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-4 {
+  right: auto;
+}
+.forced-xs .col-lg-5 {
+  width: auto;
+}
+.forced-sm .col-lg-5 {
+  width: auto;
+}
+.forced-md .col-lg-5 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-5 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-5 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-5 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-5 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-5 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-5 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-5 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-5 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-5 {
+  right: auto;
+}
+.forced-xs .col-lg-6 {
+  width: auto;
+}
+.forced-sm .col-lg-6 {
+  width: auto;
+}
+.forced-md .col-lg-6 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-6 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-6 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-6 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-6 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-6 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-6 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-6 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-6 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-6 {
+  right: auto;
+}
+.forced-xs .col-lg-7 {
+  width: auto;
+}
+.forced-sm .col-lg-7 {
+  width: auto;
+}
+.forced-md .col-lg-7 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-7 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-7 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-7 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-7 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-7 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-7 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-7 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-7 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-7 {
+  right: auto;
+}
+.forced-xs .col-lg-8 {
+  width: auto;
+}
+.forced-sm .col-lg-8 {
+  width: auto;
+}
+.forced-md .col-lg-8 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-8 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-8 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-8 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-8 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-8 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-8 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-8 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-8 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-8 {
+  right: auto;
+}
+.forced-xs .col-lg-9 {
+  width: auto;
+}
+.forced-sm .col-lg-9 {
+  width: auto;
+}
+.forced-md .col-lg-9 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-9 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-9 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-9 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-9 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-9 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-9 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-9 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-9 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-9 {
+  right: auto;
+}
+.forced-xs .col-lg-10 {
+  width: auto;
+}
+.forced-sm .col-lg-10 {
+  width: auto;
+}
+.forced-md .col-lg-10 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-10 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-10 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-10 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-10 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-10 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-10 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-10 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-10 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-10 {
+  right: auto;
+}
+.forced-xs .col-lg-11 {
+  width: auto;
+}
+.forced-sm .col-lg-11 {
+  width: auto;
+}
+.forced-md .col-lg-11 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-11 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-11 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-11 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-11 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-11 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-11 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-11 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-11 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-11 {
+  right: auto;
+}
+.forced-xs .col-lg-12 {
+  width: auto;
+}
+.forced-sm .col-lg-12 {
+  width: auto;
+}
+.forced-md .col-lg-12 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-12 {
+  width: auto;
+}
+.forced-lg .forced-sm .col-lg-12 {
+  width: auto;
+}
+.forced-lg .forced-md .col-lg-12 {
+  width: auto;
+}
+.forced-lg .forced-xs .col-lg-push-12 {
+  left: auto;
+}
+.forced-lg .forced-sm .col-lg-push-12 {
+  left: auto;
+}
+.forced-lg .forced-lg .col-lg-push-12 {
+  left: auto;
+}
+.forced-lg .forced-xs .col-lg-pull-12 {
+  right: auto;
+}
+.forced-lg .forced-sm .col-lg-pull-12 {
+  right: auto;
+}
+.forced-lg .forced-lg .col-lg-pull-12 {
+  right: auto;
+}
 .forced-xs .col-xs-1 {
+  width: 8.33333333%;
+}
+.forced-sm .col-xs-1 {
+  width: 8.33333333%;
+}
+.forced-md .col-xs-1 {
+  width: 8.33333333%;
+}
+.forced-lg .col-xs-1 {
+  width: 8.33333333%;
+}
+.forced-sm .forced-xs .col-xs-1 {
+  width: 8.33333333%;
+}
+.forced-md .forced-xs .col-xs-1 {
+  width: 8.33333333%;
+}
+.forced-lg .forced-xs .col-xs-1 {
+  width: 8.33333333%;
+}
+.forced-md .forced-sm .col-xs-1 {
+  width: 8.33333333%;
+}
+.forced-lg .forced-sm .col-xs-1 {
+  width: 8.33333333%;
+}
+.forced-lg .forced-md .col-xs-1 {
   width: 8.33333333%;
 }
 .forced-xs .col-xs-2 {
   width: 16.66666667%;
 }
+.forced-sm .col-xs-2 {
+  width: 16.66666667%;
+}
+.forced-md .col-xs-2 {
+  width: 16.66666667%;
+}
+.forced-lg .col-xs-2 {
+  width: 16.66666667%;
+}
+.forced-sm .forced-xs .col-xs-2 {
+  width: 16.66666667%;
+}
+.forced-md .forced-xs .col-xs-2 {
+  width: 16.66666667%;
+}
+.forced-lg .forced-xs .col-xs-2 {
+  width: 16.66666667%;
+}
+.forced-md .forced-sm .col-xs-2 {
+  width: 16.66666667%;
+}
+.forced-lg .forced-sm .col-xs-2 {
+  width: 16.66666667%;
+}
+.forced-lg .forced-md .col-xs-2 {
+  width: 16.66666667%;
+}
 .forced-xs .col-xs-3 {
+  width: 25%;
+}
+.forced-sm .col-xs-3 {
+  width: 25%;
+}
+.forced-md .col-xs-3 {
+  width: 25%;
+}
+.forced-lg .col-xs-3 {
+  width: 25%;
+}
+.forced-sm .forced-xs .col-xs-3 {
+  width: 25%;
+}
+.forced-md .forced-xs .col-xs-3 {
+  width: 25%;
+}
+.forced-lg .forced-xs .col-xs-3 {
+  width: 25%;
+}
+.forced-md .forced-sm .col-xs-3 {
+  width: 25%;
+}
+.forced-lg .forced-sm .col-xs-3 {
+  width: 25%;
+}
+.forced-lg .forced-md .col-xs-3 {
   width: 25%;
 }
 .forced-xs .col-xs-4 {
   width: 33.33333333%;
 }
+.forced-sm .col-xs-4 {
+  width: 33.33333333%;
+}
+.forced-md .col-xs-4 {
+  width: 33.33333333%;
+}
+.forced-lg .col-xs-4 {
+  width: 33.33333333%;
+}
+.forced-sm .forced-xs .col-xs-4 {
+  width: 33.33333333%;
+}
+.forced-md .forced-xs .col-xs-4 {
+  width: 33.33333333%;
+}
+.forced-lg .forced-xs .col-xs-4 {
+  width: 33.33333333%;
+}
+.forced-md .forced-sm .col-xs-4 {
+  width: 33.33333333%;
+}
+.forced-lg .forced-sm .col-xs-4 {
+  width: 33.33333333%;
+}
+.forced-lg .forced-md .col-xs-4 {
+  width: 33.33333333%;
+}
 .forced-xs .col-xs-5 {
+  width: 41.66666667%;
+}
+.forced-sm .col-xs-5 {
+  width: 41.66666667%;
+}
+.forced-md .col-xs-5 {
+  width: 41.66666667%;
+}
+.forced-lg .col-xs-5 {
+  width: 41.66666667%;
+}
+.forced-sm .forced-xs .col-xs-5 {
+  width: 41.66666667%;
+}
+.forced-md .forced-xs .col-xs-5 {
+  width: 41.66666667%;
+}
+.forced-lg .forced-xs .col-xs-5 {
+  width: 41.66666667%;
+}
+.forced-md .forced-sm .col-xs-5 {
+  width: 41.66666667%;
+}
+.forced-lg .forced-sm .col-xs-5 {
+  width: 41.66666667%;
+}
+.forced-lg .forced-md .col-xs-5 {
   width: 41.66666667%;
 }
 .forced-xs .col-xs-6 {
   width: 50%;
 }
+.forced-sm .col-xs-6 {
+  width: 50%;
+}
+.forced-md .col-xs-6 {
+  width: 50%;
+}
+.forced-lg .col-xs-6 {
+  width: 50%;
+}
+.forced-sm .forced-xs .col-xs-6 {
+  width: 50%;
+}
+.forced-md .forced-xs .col-xs-6 {
+  width: 50%;
+}
+.forced-lg .forced-xs .col-xs-6 {
+  width: 50%;
+}
+.forced-md .forced-sm .col-xs-6 {
+  width: 50%;
+}
+.forced-lg .forced-sm .col-xs-6 {
+  width: 50%;
+}
+.forced-lg .forced-md .col-xs-6 {
+  width: 50%;
+}
 .forced-xs .col-xs-7 {
+  width: 58.33333333%;
+}
+.forced-sm .col-xs-7 {
+  width: 58.33333333%;
+}
+.forced-md .col-xs-7 {
+  width: 58.33333333%;
+}
+.forced-lg .col-xs-7 {
+  width: 58.33333333%;
+}
+.forced-sm .forced-xs .col-xs-7 {
+  width: 58.33333333%;
+}
+.forced-md .forced-xs .col-xs-7 {
+  width: 58.33333333%;
+}
+.forced-lg .forced-xs .col-xs-7 {
+  width: 58.33333333%;
+}
+.forced-md .forced-sm .col-xs-7 {
+  width: 58.33333333%;
+}
+.forced-lg .forced-sm .col-xs-7 {
+  width: 58.33333333%;
+}
+.forced-lg .forced-md .col-xs-7 {
   width: 58.33333333%;
 }
 .forced-xs .col-xs-8 {
   width: 66.66666667%;
 }
+.forced-sm .col-xs-8 {
+  width: 66.66666667%;
+}
+.forced-md .col-xs-8 {
+  width: 66.66666667%;
+}
+.forced-lg .col-xs-8 {
+  width: 66.66666667%;
+}
+.forced-sm .forced-xs .col-xs-8 {
+  width: 66.66666667%;
+}
+.forced-md .forced-xs .col-xs-8 {
+  width: 66.66666667%;
+}
+.forced-lg .forced-xs .col-xs-8 {
+  width: 66.66666667%;
+}
+.forced-md .forced-sm .col-xs-8 {
+  width: 66.66666667%;
+}
+.forced-lg .forced-sm .col-xs-8 {
+  width: 66.66666667%;
+}
+.forced-lg .forced-md .col-xs-8 {
+  width: 66.66666667%;
+}
 .forced-xs .col-xs-9 {
+  width: 75%;
+}
+.forced-sm .col-xs-9 {
+  width: 75%;
+}
+.forced-md .col-xs-9 {
+  width: 75%;
+}
+.forced-lg .col-xs-9 {
+  width: 75%;
+}
+.forced-sm .forced-xs .col-xs-9 {
+  width: 75%;
+}
+.forced-md .forced-xs .col-xs-9 {
+  width: 75%;
+}
+.forced-lg .forced-xs .col-xs-9 {
+  width: 75%;
+}
+.forced-md .forced-sm .col-xs-9 {
+  width: 75%;
+}
+.forced-lg .forced-sm .col-xs-9 {
+  width: 75%;
+}
+.forced-lg .forced-md .col-xs-9 {
   width: 75%;
 }
 .forced-xs .col-xs-10 {
   width: 83.33333333%;
 }
+.forced-sm .col-xs-10 {
+  width: 83.33333333%;
+}
+.forced-md .col-xs-10 {
+  width: 83.33333333%;
+}
+.forced-lg .col-xs-10 {
+  width: 83.33333333%;
+}
+.forced-sm .forced-xs .col-xs-10 {
+  width: 83.33333333%;
+}
+.forced-md .forced-xs .col-xs-10 {
+  width: 83.33333333%;
+}
+.forced-lg .forced-xs .col-xs-10 {
+  width: 83.33333333%;
+}
+.forced-md .forced-sm .col-xs-10 {
+  width: 83.33333333%;
+}
+.forced-lg .forced-sm .col-xs-10 {
+  width: 83.33333333%;
+}
+.forced-lg .forced-md .col-xs-10 {
+  width: 83.33333333%;
+}
 .forced-xs .col-xs-11 {
   width: 91.66666667%;
 }
+.forced-sm .col-xs-11 {
+  width: 91.66666667%;
+}
+.forced-md .col-xs-11 {
+  width: 91.66666667%;
+}
+.forced-lg .col-xs-11 {
+  width: 91.66666667%;
+}
+.forced-sm .forced-xs .col-xs-11 {
+  width: 91.66666667%;
+}
+.forced-md .forced-xs .col-xs-11 {
+  width: 91.66666667%;
+}
+.forced-lg .forced-xs .col-xs-11 {
+  width: 91.66666667%;
+}
+.forced-md .forced-sm .col-xs-11 {
+  width: 91.66666667%;
+}
+.forced-lg .forced-sm .col-xs-11 {
+  width: 91.66666667%;
+}
+.forced-lg .forced-md .col-xs-11 {
+  width: 91.66666667%;
+}
 .forced-xs .col-xs-12 {
+  width: 100%;
+}
+.forced-sm .col-xs-12 {
+  width: 100%;
+}
+.forced-md .col-xs-12 {
+  width: 100%;
+}
+.forced-lg .col-xs-12 {
+  width: 100%;
+}
+.forced-sm .forced-xs .col-xs-12 {
+  width: 100%;
+}
+.forced-md .forced-xs .col-xs-12 {
+  width: 100%;
+}
+.forced-lg .forced-xs .col-xs-12 {
+  width: 100%;
+}
+.forced-md .forced-sm .col-xs-12 {
+  width: 100%;
+}
+.forced-lg .forced-sm .col-xs-12 {
+  width: 100%;
+}
+.forced-lg .forced-md .col-xs-12 {
   width: 100%;
 }
 .forced-xs .col-xs-offset-12 {
@@ -2986,502 +4480,220 @@ pre code {
 .forced-xs .forced-xs .col-xs-pull-0 {
   right: 0;
 }
-.forced-sm .col-md-0 {
-  width: auto;
-}
-.forced-sm .col-lg-0 {
-  width: auto;
-}
-.forced-sm .col-md-offset-0 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-0 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-0 {
-  left: auto;
-}
-.forced-sm .col-lg-push-0 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-0 {
-  left: auto;
-}
-.forced-sm .col-md-pull-0 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-0 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-0 {
-  right: auto;
-}
-.forced-sm .col-md-1 {
-  width: auto;
-}
-.forced-sm .col-lg-1 {
-  width: auto;
-}
-.forced-sm .col-md-offset-1 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-1 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-1 {
-  left: auto;
-}
-.forced-sm .col-lg-push-1 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-1 {
-  left: auto;
-}
-.forced-sm .col-md-pull-1 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-1 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-1 {
-  right: auto;
-}
-.forced-sm .col-md-2 {
-  width: auto;
-}
-.forced-sm .col-lg-2 {
-  width: auto;
-}
-.forced-sm .col-md-offset-2 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-2 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-2 {
-  left: auto;
-}
-.forced-sm .col-lg-push-2 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-2 {
-  left: auto;
-}
-.forced-sm .col-md-pull-2 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-2 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-2 {
-  right: auto;
-}
-.forced-sm .col-md-3 {
-  width: auto;
-}
-.forced-sm .col-lg-3 {
-  width: auto;
-}
-.forced-sm .col-md-offset-3 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-3 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-3 {
-  left: auto;
-}
-.forced-sm .col-lg-push-3 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-3 {
-  left: auto;
-}
-.forced-sm .col-md-pull-3 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-3 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-3 {
-  right: auto;
-}
-.forced-sm .col-md-4 {
-  width: auto;
-}
-.forced-sm .col-lg-4 {
-  width: auto;
-}
-.forced-sm .col-md-offset-4 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-4 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-4 {
-  left: auto;
-}
-.forced-sm .col-lg-push-4 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-4 {
-  left: auto;
-}
-.forced-sm .col-md-pull-4 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-4 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-4 {
-  right: auto;
-}
-.forced-sm .col-md-5 {
-  width: auto;
-}
-.forced-sm .col-lg-5 {
-  width: auto;
-}
-.forced-sm .col-md-offset-5 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-5 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-5 {
-  left: auto;
-}
-.forced-sm .col-lg-push-5 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-5 {
-  left: auto;
-}
-.forced-sm .col-md-pull-5 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-5 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-5 {
-  right: auto;
-}
-.forced-sm .col-md-6 {
-  width: auto;
-}
-.forced-sm .col-lg-6 {
-  width: auto;
-}
-.forced-sm .col-md-offset-6 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-6 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-6 {
-  left: auto;
-}
-.forced-sm .col-lg-push-6 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-6 {
-  left: auto;
-}
-.forced-sm .col-md-pull-6 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-6 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-6 {
-  right: auto;
-}
-.forced-sm .col-md-7 {
-  width: auto;
-}
-.forced-sm .col-lg-7 {
-  width: auto;
-}
-.forced-sm .col-md-offset-7 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-7 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-7 {
-  left: auto;
-}
-.forced-sm .col-lg-push-7 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-7 {
-  left: auto;
-}
-.forced-sm .col-md-pull-7 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-7 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-7 {
-  right: auto;
-}
-.forced-sm .col-md-8 {
-  width: auto;
-}
-.forced-sm .col-lg-8 {
-  width: auto;
-}
-.forced-sm .col-md-offset-8 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-8 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-8 {
-  left: auto;
-}
-.forced-sm .col-lg-push-8 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-8 {
-  left: auto;
-}
-.forced-sm .col-md-pull-8 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-8 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-8 {
-  right: auto;
-}
-.forced-sm .col-md-9 {
-  width: auto;
-}
-.forced-sm .col-lg-9 {
-  width: auto;
-}
-.forced-sm .col-md-offset-9 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-9 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-9 {
-  left: auto;
-}
-.forced-sm .col-lg-push-9 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-9 {
-  left: auto;
-}
-.forced-sm .col-md-pull-9 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-9 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-9 {
-  right: auto;
-}
-.forced-sm .col-md-10 {
-  width: auto;
-}
-.forced-sm .col-lg-10 {
-  width: auto;
-}
-.forced-sm .col-md-offset-10 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-10 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-10 {
-  left: auto;
-}
-.forced-sm .col-lg-push-10 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-10 {
-  left: auto;
-}
-.forced-sm .col-md-pull-10 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-10 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-10 {
-  right: auto;
-}
-.forced-sm .col-md-11 {
-  width: auto;
-}
-.forced-sm .col-lg-11 {
-  width: auto;
-}
-.forced-sm .col-md-offset-11 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-11 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-11 {
-  left: auto;
-}
-.forced-sm .col-lg-push-11 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-11 {
-  left: auto;
-}
-.forced-sm .col-md-pull-11 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-11 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-11 {
-  right: auto;
-}
-.forced-sm .col-md-12 {
-  width: auto;
-}
-.forced-sm .col-lg-12 {
-  width: auto;
-}
-.forced-sm .col-md-offset-12 {
-  margin-left: auto;
-}
-.forced-sm .col-lg-offset-12 {
-  margin-left: auto;
-}
-.forced-sm .col-md-push-12 {
-  left: auto;
-}
-.forced-sm .col-lg-push-12 {
-  left: auto;
-}
-.forced-sm .forced-xs .col-sm-push-12 {
-  left: auto;
-}
-.forced-sm .col-md-pull-12 {
-  right: auto;
-}
-.forced-sm .col-lg-pull-12 {
-  right: auto;
-}
-.forced-sm .forced-xs .col-sm-pull-12 {
-  right: auto;
-}
-.forced-sm .col-xs-1 {
-  width: 8.33333333%;
-}
 .forced-sm .col-sm-1 {
   width: 8.33333333%;
 }
-.forced-sm .forced-xs .col-xs-1 {
+.forced-md .col-sm-1 {
   width: 8.33333333%;
 }
-.forced-sm .col-xs-2 {
-  width: 16.66666667%;
+.forced-lg .col-sm-1 {
+  width: 8.33333333%;
+}
+.forced-md .forced-sm .col-sm-1 {
+  width: 8.33333333%;
+}
+.forced-lg .forced-sm .col-sm-1 {
+  width: 8.33333333%;
+}
+.forced-lg .forced-md .col-sm-1 {
+  width: 8.33333333%;
 }
 .forced-sm .col-sm-2 {
   width: 16.66666667%;
 }
-.forced-sm .forced-xs .col-xs-2 {
+.forced-md .col-sm-2 {
   width: 16.66666667%;
 }
-.forced-sm .col-xs-3 {
-  width: 25%;
+.forced-lg .col-sm-2 {
+  width: 16.66666667%;
+}
+.forced-md .forced-sm .col-sm-2 {
+  width: 16.66666667%;
+}
+.forced-lg .forced-sm .col-sm-2 {
+  width: 16.66666667%;
+}
+.forced-lg .forced-md .col-sm-2 {
+  width: 16.66666667%;
 }
 .forced-sm .col-sm-3 {
   width: 25%;
 }
-.forced-sm .forced-xs .col-xs-3 {
+.forced-md .col-sm-3 {
   width: 25%;
 }
-.forced-sm .col-xs-4 {
-  width: 33.33333333%;
+.forced-lg .col-sm-3 {
+  width: 25%;
+}
+.forced-md .forced-sm .col-sm-3 {
+  width: 25%;
+}
+.forced-lg .forced-sm .col-sm-3 {
+  width: 25%;
+}
+.forced-lg .forced-md .col-sm-3 {
+  width: 25%;
 }
 .forced-sm .col-sm-4 {
   width: 33.33333333%;
 }
-.forced-sm .forced-xs .col-xs-4 {
+.forced-md .col-sm-4 {
   width: 33.33333333%;
 }
-.forced-sm .col-xs-5 {
-  width: 41.66666667%;
+.forced-lg .col-sm-4 {
+  width: 33.33333333%;
+}
+.forced-md .forced-sm .col-sm-4 {
+  width: 33.33333333%;
+}
+.forced-lg .forced-sm .col-sm-4 {
+  width: 33.33333333%;
+}
+.forced-lg .forced-md .col-sm-4 {
+  width: 33.33333333%;
 }
 .forced-sm .col-sm-5 {
   width: 41.66666667%;
 }
-.forced-sm .forced-xs .col-xs-5 {
+.forced-md .col-sm-5 {
   width: 41.66666667%;
 }
-.forced-sm .col-xs-6 {
-  width: 50%;
+.forced-lg .col-sm-5 {
+  width: 41.66666667%;
+}
+.forced-md .forced-sm .col-sm-5 {
+  width: 41.66666667%;
+}
+.forced-lg .forced-sm .col-sm-5 {
+  width: 41.66666667%;
+}
+.forced-lg .forced-md .col-sm-5 {
+  width: 41.66666667%;
 }
 .forced-sm .col-sm-6 {
   width: 50%;
 }
-.forced-sm .forced-xs .col-xs-6 {
+.forced-md .col-sm-6 {
   width: 50%;
 }
-.forced-sm .col-xs-7 {
-  width: 58.33333333%;
+.forced-lg .col-sm-6 {
+  width: 50%;
+}
+.forced-md .forced-sm .col-sm-6 {
+  width: 50%;
+}
+.forced-lg .forced-sm .col-sm-6 {
+  width: 50%;
+}
+.forced-lg .forced-md .col-sm-6 {
+  width: 50%;
 }
 .forced-sm .col-sm-7 {
   width: 58.33333333%;
 }
-.forced-sm .forced-xs .col-xs-7 {
+.forced-md .col-sm-7 {
   width: 58.33333333%;
 }
-.forced-sm .col-xs-8 {
-  width: 66.66666667%;
+.forced-lg .col-sm-7 {
+  width: 58.33333333%;
+}
+.forced-md .forced-sm .col-sm-7 {
+  width: 58.33333333%;
+}
+.forced-lg .forced-sm .col-sm-7 {
+  width: 58.33333333%;
+}
+.forced-lg .forced-md .col-sm-7 {
+  width: 58.33333333%;
 }
 .forced-sm .col-sm-8 {
   width: 66.66666667%;
 }
-.forced-sm .forced-xs .col-xs-8 {
+.forced-md .col-sm-8 {
   width: 66.66666667%;
 }
-.forced-sm .col-xs-9 {
-  width: 75%;
+.forced-lg .col-sm-8 {
+  width: 66.66666667%;
+}
+.forced-md .forced-sm .col-sm-8 {
+  width: 66.66666667%;
+}
+.forced-lg .forced-sm .col-sm-8 {
+  width: 66.66666667%;
+}
+.forced-lg .forced-md .col-sm-8 {
+  width: 66.66666667%;
 }
 .forced-sm .col-sm-9 {
   width: 75%;
 }
-.forced-sm .forced-xs .col-xs-9 {
+.forced-md .col-sm-9 {
   width: 75%;
 }
-.forced-sm .col-xs-10 {
-  width: 83.33333333%;
+.forced-lg .col-sm-9 {
+  width: 75%;
+}
+.forced-md .forced-sm .col-sm-9 {
+  width: 75%;
+}
+.forced-lg .forced-sm .col-sm-9 {
+  width: 75%;
+}
+.forced-lg .forced-md .col-sm-9 {
+  width: 75%;
 }
 .forced-sm .col-sm-10 {
   width: 83.33333333%;
 }
-.forced-sm .forced-xs .col-xs-10 {
+.forced-md .col-sm-10 {
   width: 83.33333333%;
 }
-.forced-sm .col-xs-11 {
-  width: 91.66666667%;
+.forced-lg .col-sm-10 {
+  width: 83.33333333%;
+}
+.forced-md .forced-sm .col-sm-10 {
+  width: 83.33333333%;
+}
+.forced-lg .forced-sm .col-sm-10 {
+  width: 83.33333333%;
+}
+.forced-lg .forced-md .col-sm-10 {
+  width: 83.33333333%;
 }
 .forced-sm .col-sm-11 {
   width: 91.66666667%;
 }
-.forced-sm .forced-xs .col-xs-11 {
+.forced-md .col-sm-11 {
   width: 91.66666667%;
 }
-.forced-sm .col-xs-12 {
-  width: 100%;
+.forced-lg .col-sm-11 {
+  width: 91.66666667%;
+}
+.forced-md .forced-sm .col-sm-11 {
+  width: 91.66666667%;
+}
+.forced-lg .forced-sm .col-sm-11 {
+  width: 91.66666667%;
+}
+.forced-lg .forced-md .col-sm-11 {
+  width: 91.66666667%;
 }
 .forced-sm .col-sm-12 {
   width: 100%;
 }
-.forced-sm .forced-xs .col-xs-12 {
+.forced-md .col-sm-12 {
+  width: 100%;
+}
+.forced-lg .col-sm-12 {
+  width: 100%;
+}
+.forced-md .forced-sm .col-sm-12 {
+  width: 100%;
+}
+.forced-lg .forced-sm .col-sm-12 {
+  width: 100%;
+}
+.forced-lg .forced-md .col-sm-12 {
   width: 100%;
 }
 .forced-sm .col-xs-offset-12 {
@@ -3952,496 +5164,112 @@ pre code {
 .forced-sm .forced-sm .col-sm-pull-0 {
   right: 0;
 }
-.forced-md .col-lg-0 {
-  width: auto;
-}
-.forced-md .col-lg-offset-0 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-0 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-0 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-0 {
-  left: auto;
-}
-.forced-md .col-lg-pull-0 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-0 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-0 {
-  right: auto;
-}
-.forced-md .col-lg-1 {
-  width: auto;
-}
-.forced-md .col-lg-offset-1 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-1 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-1 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-1 {
-  left: auto;
-}
-.forced-md .col-lg-pull-1 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-1 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-1 {
-  right: auto;
-}
-.forced-md .col-lg-2 {
-  width: auto;
-}
-.forced-md .col-lg-offset-2 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-2 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-2 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-2 {
-  left: auto;
-}
-.forced-md .col-lg-pull-2 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-2 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-2 {
-  right: auto;
-}
-.forced-md .col-lg-3 {
-  width: auto;
-}
-.forced-md .col-lg-offset-3 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-3 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-3 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-3 {
-  left: auto;
-}
-.forced-md .col-lg-pull-3 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-3 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-3 {
-  right: auto;
-}
-.forced-md .col-lg-4 {
-  width: auto;
-}
-.forced-md .col-lg-offset-4 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-4 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-4 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-4 {
-  left: auto;
-}
-.forced-md .col-lg-pull-4 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-4 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-4 {
-  right: auto;
-}
-.forced-md .col-lg-5 {
-  width: auto;
-}
-.forced-md .col-lg-offset-5 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-5 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-5 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-5 {
-  left: auto;
-}
-.forced-md .col-lg-pull-5 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-5 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-5 {
-  right: auto;
-}
-.forced-md .col-lg-6 {
-  width: auto;
-}
-.forced-md .col-lg-offset-6 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-6 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-6 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-6 {
-  left: auto;
-}
-.forced-md .col-lg-pull-6 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-6 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-6 {
-  right: auto;
-}
-.forced-md .col-lg-7 {
-  width: auto;
-}
-.forced-md .col-lg-offset-7 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-7 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-7 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-7 {
-  left: auto;
-}
-.forced-md .col-lg-pull-7 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-7 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-7 {
-  right: auto;
-}
-.forced-md .col-lg-8 {
-  width: auto;
-}
-.forced-md .col-lg-offset-8 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-8 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-8 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-8 {
-  left: auto;
-}
-.forced-md .col-lg-pull-8 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-8 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-8 {
-  right: auto;
-}
-.forced-md .col-lg-9 {
-  width: auto;
-}
-.forced-md .col-lg-offset-9 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-9 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-9 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-9 {
-  left: auto;
-}
-.forced-md .col-lg-pull-9 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-9 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-9 {
-  right: auto;
-}
-.forced-md .col-lg-10 {
-  width: auto;
-}
-.forced-md .col-lg-offset-10 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-10 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-10 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-10 {
-  left: auto;
-}
-.forced-md .col-lg-pull-10 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-10 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-10 {
-  right: auto;
-}
-.forced-md .col-lg-11 {
-  width: auto;
-}
-.forced-md .col-lg-offset-11 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-11 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-11 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-11 {
-  left: auto;
-}
-.forced-md .col-lg-pull-11 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-11 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-11 {
-  right: auto;
-}
-.forced-md .col-lg-12 {
-  width: auto;
-}
-.forced-md .col-lg-offset-12 {
-  margin-left: auto;
-}
-.forced-md .col-lg-push-12 {
-  left: auto;
-}
-.forced-md .forced-xs .col-md-push-12 {
-  left: auto;
-}
-.forced-md .forced-sm .col-md-push-12 {
-  left: auto;
-}
-.forced-md .col-lg-pull-12 {
-  right: auto;
-}
-.forced-md .forced-xs .col-md-pull-12 {
-  right: auto;
-}
-.forced-md .forced-sm .col-md-pull-12 {
-  right: auto;
-}
-.forced-md .col-xs-1 {
-  width: 8.33333333%;
-}
-.forced-md .col-sm-1 {
-  width: 8.33333333%;
-}
 .forced-md .col-md-1 {
   width: 8.33333333%;
 }
-.forced-md .forced-xs .col-xs-1 {
+.forced-lg .col-md-1 {
   width: 8.33333333%;
 }
-.forced-md .forced-sm .col-sm-1 {
+.forced-lg .forced-md .col-md-1 {
   width: 8.33333333%;
-}
-.forced-md .col-xs-2 {
-  width: 16.66666667%;
-}
-.forced-md .col-sm-2 {
-  width: 16.66666667%;
 }
 .forced-md .col-md-2 {
   width: 16.66666667%;
 }
-.forced-md .forced-xs .col-xs-2 {
+.forced-lg .col-md-2 {
   width: 16.66666667%;
 }
-.forced-md .forced-sm .col-sm-2 {
+.forced-lg .forced-md .col-md-2 {
   width: 16.66666667%;
-}
-.forced-md .col-xs-3 {
-  width: 25%;
-}
-.forced-md .col-sm-3 {
-  width: 25%;
 }
 .forced-md .col-md-3 {
   width: 25%;
 }
-.forced-md .forced-xs .col-xs-3 {
+.forced-lg .col-md-3 {
   width: 25%;
 }
-.forced-md .forced-sm .col-sm-3 {
+.forced-lg .forced-md .col-md-3 {
   width: 25%;
-}
-.forced-md .col-xs-4 {
-  width: 33.33333333%;
-}
-.forced-md .col-sm-4 {
-  width: 33.33333333%;
 }
 .forced-md .col-md-4 {
   width: 33.33333333%;
 }
-.forced-md .forced-xs .col-xs-4 {
+.forced-lg .col-md-4 {
   width: 33.33333333%;
 }
-.forced-md .forced-sm .col-sm-4 {
+.forced-lg .forced-md .col-md-4 {
   width: 33.33333333%;
-}
-.forced-md .col-xs-5 {
-  width: 41.66666667%;
-}
-.forced-md .col-sm-5 {
-  width: 41.66666667%;
 }
 .forced-md .col-md-5 {
   width: 41.66666667%;
 }
-.forced-md .forced-xs .col-xs-5 {
+.forced-lg .col-md-5 {
   width: 41.66666667%;
 }
-.forced-md .forced-sm .col-sm-5 {
+.forced-lg .forced-md .col-md-5 {
   width: 41.66666667%;
-}
-.forced-md .col-xs-6 {
-  width: 50%;
-}
-.forced-md .col-sm-6 {
-  width: 50%;
 }
 .forced-md .col-md-6 {
   width: 50%;
 }
-.forced-md .forced-xs .col-xs-6 {
+.forced-lg .col-md-6 {
   width: 50%;
 }
-.forced-md .forced-sm .col-sm-6 {
+.forced-lg .forced-md .col-md-6 {
   width: 50%;
-}
-.forced-md .col-xs-7 {
-  width: 58.33333333%;
-}
-.forced-md .col-sm-7 {
-  width: 58.33333333%;
 }
 .forced-md .col-md-7 {
   width: 58.33333333%;
 }
-.forced-md .forced-xs .col-xs-7 {
+.forced-lg .col-md-7 {
   width: 58.33333333%;
 }
-.forced-md .forced-sm .col-sm-7 {
+.forced-lg .forced-md .col-md-7 {
   width: 58.33333333%;
-}
-.forced-md .col-xs-8 {
-  width: 66.66666667%;
-}
-.forced-md .col-sm-8 {
-  width: 66.66666667%;
 }
 .forced-md .col-md-8 {
   width: 66.66666667%;
 }
-.forced-md .forced-xs .col-xs-8 {
+.forced-lg .col-md-8 {
   width: 66.66666667%;
 }
-.forced-md .forced-sm .col-sm-8 {
+.forced-lg .forced-md .col-md-8 {
   width: 66.66666667%;
-}
-.forced-md .col-xs-9 {
-  width: 75%;
-}
-.forced-md .col-sm-9 {
-  width: 75%;
 }
 .forced-md .col-md-9 {
   width: 75%;
 }
-.forced-md .forced-xs .col-xs-9 {
+.forced-lg .col-md-9 {
   width: 75%;
 }
-.forced-md .forced-sm .col-sm-9 {
+.forced-lg .forced-md .col-md-9 {
   width: 75%;
-}
-.forced-md .col-xs-10 {
-  width: 83.33333333%;
-}
-.forced-md .col-sm-10 {
-  width: 83.33333333%;
 }
 .forced-md .col-md-10 {
   width: 83.33333333%;
 }
-.forced-md .forced-xs .col-xs-10 {
+.forced-lg .col-md-10 {
   width: 83.33333333%;
 }
-.forced-md .forced-sm .col-sm-10 {
+.forced-lg .forced-md .col-md-10 {
   width: 83.33333333%;
-}
-.forced-md .col-xs-11 {
-  width: 91.66666667%;
-}
-.forced-md .col-sm-11 {
-  width: 91.66666667%;
 }
 .forced-md .col-md-11 {
   width: 91.66666667%;
 }
-.forced-md .forced-xs .col-xs-11 {
+.forced-lg .col-md-11 {
   width: 91.66666667%;
 }
-.forced-md .forced-sm .col-sm-11 {
+.forced-lg .forced-md .col-md-11 {
   width: 91.66666667%;
-}
-.forced-md .col-xs-12 {
-  width: 100%;
-}
-.forced-md .col-sm-12 {
-  width: 100%;
 }
 .forced-md .col-md-12 {
   width: 100%;
 }
-.forced-md .forced-xs .col-xs-12 {
+.forced-lg .col-md-12 {
   width: 100%;
 }
-.forced-md .forced-sm .col-sm-12 {
+.forced-lg .forced-md .col-md-12 {
   width: 100%;
 }
 .forced-md .col-xs-offset-12 {
@@ -5146,490 +5974,40 @@ pre code {
 .forced-md .forced-md .col-md-pull-0 {
   right: 0;
 }
-.forced-lg .forced-xs .col-lg-push-0 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-0 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-0 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-0 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-0 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-0 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-1 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-1 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-1 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-1 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-1 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-1 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-2 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-2 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-2 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-2 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-2 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-2 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-3 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-3 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-3 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-3 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-3 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-3 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-4 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-4 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-4 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-4 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-4 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-4 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-5 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-5 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-5 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-5 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-5 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-5 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-6 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-6 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-6 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-6 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-6 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-6 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-7 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-7 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-7 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-7 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-7 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-7 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-8 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-8 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-8 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-8 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-8 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-8 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-9 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-9 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-9 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-9 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-9 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-9 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-10 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-10 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-10 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-10 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-10 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-10 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-11 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-11 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-11 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-11 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-11 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-11 {
-  right: auto;
-}
-.forced-lg .forced-xs .col-lg-push-12 {
-  left: auto;
-}
-.forced-lg .forced-sm .col-lg-push-12 {
-  left: auto;
-}
-.forced-lg .forced-lg .col-lg-push-12 {
-  left: auto;
-}
-.forced-lg .forced-xs .col-lg-pull-12 {
-  right: auto;
-}
-.forced-lg .forced-sm .col-lg-pull-12 {
-  right: auto;
-}
-.forced-lg .forced-lg .col-lg-pull-12 {
-  right: auto;
-}
-.forced-lg .col-xs-1 {
-  width: 8.33333333%;
-}
-.forced-lg .col-sm-1 {
-  width: 8.33333333%;
-}
-.forced-lg .col-md-1 {
-  width: 8.33333333%;
-}
 .forced-lg .col-lg-1 {
   width: 8.33333333%;
-}
-.forced-lg .forced-xs .col-xs-1 {
-  width: 8.33333333%;
-}
-.forced-lg .forced-sm .col-sm-1 {
-  width: 8.33333333%;
-}
-.forced-lg .forced-md .col-md-1 {
-  width: 8.33333333%;
-}
-.forced-lg .col-xs-2 {
-  width: 16.66666667%;
-}
-.forced-lg .col-sm-2 {
-  width: 16.66666667%;
-}
-.forced-lg .col-md-2 {
-  width: 16.66666667%;
 }
 .forced-lg .col-lg-2 {
   width: 16.66666667%;
 }
-.forced-lg .forced-xs .col-xs-2 {
-  width: 16.66666667%;
-}
-.forced-lg .forced-sm .col-sm-2 {
-  width: 16.66666667%;
-}
-.forced-lg .forced-md .col-md-2 {
-  width: 16.66666667%;
-}
-.forced-lg .col-xs-3 {
-  width: 25%;
-}
-.forced-lg .col-sm-3 {
-  width: 25%;
-}
-.forced-lg .col-md-3 {
-  width: 25%;
-}
 .forced-lg .col-lg-3 {
   width: 25%;
-}
-.forced-lg .forced-xs .col-xs-3 {
-  width: 25%;
-}
-.forced-lg .forced-sm .col-sm-3 {
-  width: 25%;
-}
-.forced-lg .forced-md .col-md-3 {
-  width: 25%;
-}
-.forced-lg .col-xs-4 {
-  width: 33.33333333%;
-}
-.forced-lg .col-sm-4 {
-  width: 33.33333333%;
-}
-.forced-lg .col-md-4 {
-  width: 33.33333333%;
 }
 .forced-lg .col-lg-4 {
   width: 33.33333333%;
 }
-.forced-lg .forced-xs .col-xs-4 {
-  width: 33.33333333%;
-}
-.forced-lg .forced-sm .col-sm-4 {
-  width: 33.33333333%;
-}
-.forced-lg .forced-md .col-md-4 {
-  width: 33.33333333%;
-}
-.forced-lg .col-xs-5 {
-  width: 41.66666667%;
-}
-.forced-lg .col-sm-5 {
-  width: 41.66666667%;
-}
-.forced-lg .col-md-5 {
-  width: 41.66666667%;
-}
 .forced-lg .col-lg-5 {
   width: 41.66666667%;
-}
-.forced-lg .forced-xs .col-xs-5 {
-  width: 41.66666667%;
-}
-.forced-lg .forced-sm .col-sm-5 {
-  width: 41.66666667%;
-}
-.forced-lg .forced-md .col-md-5 {
-  width: 41.66666667%;
-}
-.forced-lg .col-xs-6 {
-  width: 50%;
-}
-.forced-lg .col-sm-6 {
-  width: 50%;
-}
-.forced-lg .col-md-6 {
-  width: 50%;
 }
 .forced-lg .col-lg-6 {
   width: 50%;
 }
-.forced-lg .forced-xs .col-xs-6 {
-  width: 50%;
-}
-.forced-lg .forced-sm .col-sm-6 {
-  width: 50%;
-}
-.forced-lg .forced-md .col-md-6 {
-  width: 50%;
-}
-.forced-lg .col-xs-7 {
-  width: 58.33333333%;
-}
-.forced-lg .col-sm-7 {
-  width: 58.33333333%;
-}
-.forced-lg .col-md-7 {
-  width: 58.33333333%;
-}
 .forced-lg .col-lg-7 {
   width: 58.33333333%;
-}
-.forced-lg .forced-xs .col-xs-7 {
-  width: 58.33333333%;
-}
-.forced-lg .forced-sm .col-sm-7 {
-  width: 58.33333333%;
-}
-.forced-lg .forced-md .col-md-7 {
-  width: 58.33333333%;
-}
-.forced-lg .col-xs-8 {
-  width: 66.66666667%;
-}
-.forced-lg .col-sm-8 {
-  width: 66.66666667%;
-}
-.forced-lg .col-md-8 {
-  width: 66.66666667%;
 }
 .forced-lg .col-lg-8 {
   width: 66.66666667%;
 }
-.forced-lg .forced-xs .col-xs-8 {
-  width: 66.66666667%;
-}
-.forced-lg .forced-sm .col-sm-8 {
-  width: 66.66666667%;
-}
-.forced-lg .forced-md .col-md-8 {
-  width: 66.66666667%;
-}
-.forced-lg .col-xs-9 {
-  width: 75%;
-}
-.forced-lg .col-sm-9 {
-  width: 75%;
-}
-.forced-lg .col-md-9 {
-  width: 75%;
-}
 .forced-lg .col-lg-9 {
   width: 75%;
-}
-.forced-lg .forced-xs .col-xs-9 {
-  width: 75%;
-}
-.forced-lg .forced-sm .col-sm-9 {
-  width: 75%;
-}
-.forced-lg .forced-md .col-md-9 {
-  width: 75%;
-}
-.forced-lg .col-xs-10 {
-  width: 83.33333333%;
-}
-.forced-lg .col-sm-10 {
-  width: 83.33333333%;
-}
-.forced-lg .col-md-10 {
-  width: 83.33333333%;
 }
 .forced-lg .col-lg-10 {
   width: 83.33333333%;
 }
-.forced-lg .forced-xs .col-xs-10 {
-  width: 83.33333333%;
-}
-.forced-lg .forced-sm .col-sm-10 {
-  width: 83.33333333%;
-}
-.forced-lg .forced-md .col-md-10 {
-  width: 83.33333333%;
-}
-.forced-lg .col-xs-11 {
-  width: 91.66666667%;
-}
-.forced-lg .col-sm-11 {
-  width: 91.66666667%;
-}
-.forced-lg .col-md-11 {
-  width: 91.66666667%;
-}
 .forced-lg .col-lg-11 {
   width: 91.66666667%;
 }
-.forced-lg .forced-xs .col-xs-11 {
-  width: 91.66666667%;
-}
-.forced-lg .forced-sm .col-sm-11 {
-  width: 91.66666667%;
-}
-.forced-lg .forced-md .col-md-11 {
-  width: 91.66666667%;
-}
-.forced-lg .col-xs-12 {
-  width: 100%;
-}
-.forced-lg .col-sm-12 {
-  width: 100%;
-}
-.forced-lg .col-md-12 {
-  width: 100%;
-}
 .forced-lg .col-lg-12 {
-  width: 100%;
-}
-.forced-lg .forced-xs .col-xs-12 {
-  width: 100%;
-}
-.forced-lg .forced-sm .col-sm-12 {
-  width: 100%;
-}
-.forced-lg .forced-md .col-md-12 {
   width: 100%;
 }
 .forced-lg .col-xs-offset-12 {

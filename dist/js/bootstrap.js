@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v3.3.7-prima-2 (http://getbootstrap.com)
+ * Bootstrap v3.3.7-prima-3 (http://getbootstrap.com)
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under the MIT license
  */
